@@ -5,4 +5,12 @@ const transactionsController = require('../controllers/transactionsController');
 
 router.get('/',transactionsController.getAlltramsactions);
 
-module.express = router;
+router.post('/',transactionsController.addTransaction);
+
+router.put('/:id', transactionsController.updateTrasactionPut);
+
+router.patch('/:id', transactionsController.updateTrasactionPatch);
+
+router.delete('/:id', transactionsController.deleteTransactions);
+
+module.exports = router;

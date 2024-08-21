@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "concert One";
+    src: local(concert One), url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: local(Roboto), url(../public/fonts/Roboto/Roboto-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+  font-family: "concert One"; 
+  color: #161616;
+  display: flex; 
+  font-size: 24px;
+  width: 88%;
+}
+
+header{
+    padding: 10px;
+}
+.login{
+    background-color: #161616;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: "Roboto";
+    border-radius: 5px;
+    width: 25%;
+    
+}
+.topo{
+    display: flex;
+}
+.menu{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.footer-logo{
+    font-family: "concert One";
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+.rodape{
+    display: flex;
+    background-color: #161616;
+    padding: 30px;
+}
+.lista-footer{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.icone{
+    margin: 0 10px;
+    width: 22px;
+}
+.footer-copyright{
+    color: #FFFFFF;
+    
+}
+.footer-container{
+    display: flex;
+}

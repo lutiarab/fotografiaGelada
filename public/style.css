@@ -46,30 +46,34 @@ header{
     font-size: 20px;
     font-family: "Roboto";
 }
-.footer-logo{
-    font-family: "concert One";
-    font-size: 24px;
-    color: #FFFFFF;
+footer{
+    background-color: #161616;
+    display: flex;
+    display: grid ;
 
 }
-.rodape{
-    display: flex;
-    background-color: #161616;
-    padding: 30px;
+.footer-logo{
+    color: #FFFFFF;
+    font-family: "concert One";
+    font-size: 24px;
+
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 40px;
+}
+.footer-copyright{
+    color: #FFFFFF;
+    text-align: right;
+}
+.icone{
+    list-style: none;
+    
 }
 .lista-footer{
     list-style: none;
     display: flex;
     margin: auto;
-}
-.icone{
-    margin: 0 10px;
-    width: 22px;
-}
-.footer-copyright{
-    color: #FFFFFF;
-    
-}
-.footer-container{
-    display: flex;
+
 }

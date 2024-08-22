@@ -46,6 +46,9 @@ header{
     font-size: 20px;
     font-family: "Roboto";
 }
+
+
+/* Rodape */
 footer{
     background-color: #161616;
     display: flex;
@@ -69,11 +72,87 @@ footer{
 }
 .icone{
     list-style: none;
-    
+    padding: 5px;
 }
 .lista-footer{
     list-style: none;
     display: flex;
     margin: auto;
 
+}
+
+/* imagens(grade de fotos) */
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4);
+    gap: 10px;
+    margin: 10px;
+}
+.img-everest{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img-fuji{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img-suiços{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.img-canyon{
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.img-branco{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:5;
+}
+.img-elbrus{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+.img-pikes{
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end:5;
+}
+.img-huandoy{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start:4;
+    grid-row-end:5;
+}
+.image-table{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contener-icones{
+    position:relative;
+}
+.like{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
 }

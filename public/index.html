@@ -12,16 +12,31 @@
         <div class="topo">
             <h1 class="titulo">FOTOGRAFIA GElADA</h1>
 
-            <button onclick="abrirModal()" class="login">Login</button>
-            <div class="janela-modal" id="janela-modal">
-               <div class="modal">
-                <button class="fechar" id="fechar">X</button>
-                <h2>Login</h2>
-               </div>
-            </div>
+            <button class="login" onclick="abrirModal()" >Login</button>
 
         </div> 
-            
+        <div class="janela-modal" id="janela-modal">
+           <div class="modal">
+                <button  id="fechar" class="fechar">X</button>
+                <div class="modal-inter">
+                    <span>Login</span>
+                    <hr>
+                    <div class="contener-word">
+                        <span class="details">E-mail</span>
+                        <input class="word" type="text">
+                        <br>
+                        <span class="details">Senha</span>
+                        <input class="word" type="password">
+                    </div>
+                    <div>
+                        <input class="cancelar" type="submit" id="fechar" value="cancelar">
+                        <input class="Entrar" type="submit" value="Entrar">
+                    </div>
+                </div>
+           </div>
+        </div>
+            <script src="script.js"></script>
+
     </header>
     <nav class="navegacao">       
         <ul class="menu">

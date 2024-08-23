@@ -156,3 +156,76 @@ footer{
     background-color: gray;
     border-radius: 5px;
 }
+
+/* loguin */
+.janela-modal{
+    background-color: rgba(255, 255, 255, 0.293);
+    position: relative;
+    width: 100%;
+    display: none;
+    z-index: 999;
+    border: 0.1px dashed blue;
+    margin: auto;
+    height: 400px;
+}
+.janela-modal.login{
+    display: block;
+}
+.modal{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffffb6;
+    backdrop-filter: blur(10px);
+    padding: 9px;
+    border-radius: 10px;
+    border: 0.1px dashed red;
+}
+.fechar{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    border: 0;
+    cursor: pointer;
+}
+span{
+    color: #161616;
+    font-size: 20px;
+   
+}
+.modal-inter{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-family: "Roboto";
+}
+.details{
+    font-size: 15px;
+}
+.contener-word{
+    padding: 100px;
+}
+.cancelar{
+    background-color: #161616;
+    color: #FFFFFF;
+    padding: 9px;
+    font-family: "Roboto";
+    border-radius: 5px;
+    width: 49%;
+    float: left;
+    margin:auto;
+}
+.Entrar{
+    background-color: #161616;
+    color: #FFFFFF;
+    padding: 9px;
+    font-family: "Roboto";
+    border-radius: 5px;
+    width: 49%;
+    float: right;
+    margin:auto;
+}

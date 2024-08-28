@@ -36,7 +36,7 @@ header{
     font-family: "Roboto";
     border-radius: 5px;
     width: 25%;
-    
+    cursor: pointer;
 }
 .topo{
     display: flex;
@@ -159,38 +159,31 @@ footer{
 
 /* loguin */
 .janela-modal{
-    background-color: rgba(255, 255, 255, 0.293);
-    position: relative;
-    width: 100%;
-    display: none;
+    background-color: rgba(10, 10, 10, 0.47);
+    position: fixed;
+    width: 100vw;
+   display: none;
     z-index: 999;
-    border: 0.1px dashed blue;
-    margin: auto;
-    height: 400px;
+    
+    
+    height: 100vh;
+    top: 0;
+    left: 0;
 }
 .janela-modal.login{
     display: block;
 }
 .modal{
-    margin: auto;
-    width: 50%;
-    height: 100%;
+    margin: 0 auto;
+    margin-top: 25%;
+    max-width: 700px;
     background-color: #ffffffb6;
     backdrop-filter: blur(10px);
-    padding: 9px;
+    
     border-radius: 10px;
-    border: 0.1px dashed red;
+   
 }
-.fechar{
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    width: 30px;
-    height: 30px;
-    border-radius:50%;
-    border: 0;
-    cursor: pointer;
-}
+
 span{
     color: #161616;
     font-size: 20px;
@@ -198,34 +191,34 @@ span{
 }
 .modal-inter{
     text-align: center;
-    width: 100%;
-    margin: auto;
-    padding: 20px;
+    padding: 9px 8px 8px;
     font-family: "Roboto";
+    bottom: auto;
 }
 .details{
     font-size: 15px;
 }
 .contener-word{
-    padding: 100px;
+    padding: 70px;
+   
 }
 .cancelar{
     background-color: #161616;
     color: #FFFFFF;
-    padding: 9px;
-    font-family: "Roboto";
+    width: 40%;
+    cursor: pointer;
     border-radius: 5px;
-    width: 49%;
-    float: left;
-    margin:auto;
+    font-family: "Roboto";
+    padding: 8px;
+   
 }
 .Entrar{
     background-color: #161616;
     color: #FFFFFF;
-    padding: 9px;
-    font-family: "Roboto";
+    width: 40%;
+    cursor: pointer;
     border-radius: 5px;
-    width: 49%;
-    float: right;
-    margin:auto;
+    font-family: "Roboto";
+    padding: 8px;
+   
 }

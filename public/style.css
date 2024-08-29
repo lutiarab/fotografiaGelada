@@ -164,8 +164,6 @@ footer{
     width: 100vw;
    display: none;
     z-index: 999;
-    
-    
     height: 100vh;
     top: 0;
     left: 0;
@@ -200,6 +198,8 @@ span{
 }
 .contener-word{
     padding: 70px;
+    display:grid;
+    
    
 }
 .cancelar{
@@ -221,4 +221,12 @@ span{
     font-family: "Roboto";
     padding: 8px;
    
+}
+.word{
+   padding: 5px;
+   border-radius: 5px;
+}
+.details{
+    width: 10%;
+    
 }

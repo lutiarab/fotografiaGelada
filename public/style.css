@@ -173,7 +173,7 @@ footer{
 }
 .modal{
     margin: 0 auto;
-    margin-top: 25%;
+    margin-top: 19%;
     max-width: 700px;
     background-color: #ffffffb6;
     backdrop-filter: blur(10px);
@@ -228,5 +228,69 @@ span{
 }
 .details{
     width: 10%;
+    
+}
+
+/* modal fotos */
+.modal-fotos{
+    background-color: rgba(10, 10, 10, 0.47);
+    position: fixed;
+    width: 100vw;
+   padding: 20vh;
+    z-index: 999;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.modal-inter{
+   background-color: #ffffff2f;
+   align-items: center;
+   height: 107%;
+   margin: 0 auto;
+   max-width: 700px;
+}
+.modal-topo{
+    display: flex;
+    align-items: center;
+    
+}
+.title-modal{
+ font-family: "Roboto"; 
+  color: #161616;
+  display: flex; 
+  font-size: 20px;
+  width: 88%;
+  padding-left: 5%;
+}
+.icone-modal{
+ 
+    width: 4vh;
+    cursor: pointer;
+  
+}
+.modal-icone{
+
+    display:contents;
+    float: right;
+}
+.chat-modal{
+    padding-left: 90%;
+}
+.send-modal{
+    padding-left: 95%;
+   margin-top: -13px;
+}
+.modal-foto{
+    padding-left: 2%;
+    
+}
+.chat2-modal{
+    float: left;
+    margin-top: -1px;
+}
+.comentario{
+    float: left;
+    padding-bottom: 4px;
+    margin-left: 8px;
     
 }
